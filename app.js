@@ -42,8 +42,8 @@ function drawOnImage(image,x,y,w,h){
 //악당들
 class villain{
     constructor(){
-        this.x = 500;
-        this.y = Math.floor((Math.random()*1000))+1; //100~1000사이 숫자 램덤
+        this.x = canvas.width;      // 악당 나오는 위치
+        this.y = Math.floor((Math.random()*1000)); //100~1000사이 숫자 램덤
         this.width = 50;
         this.height = 50;
     }
